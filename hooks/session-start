@@ -1,0 +1,15 @@
+#!/bin/sh
+#毛选Skill Session Start Hook - POSIX Shell
+#读取并注入毛选武装思想入口Skill
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SKILL_FILE="$SCRIPT_DIR/../skills/arming-thought/SKILL.md"
+
+if [ -f "$SKILL_FILE" ]; then
+    echo "[毛选Skill] 武装思想已就绪"
+    echo "[毛选Skill] 总原则：实事求是"
+    echo ""
+    cat "$SKILL_FILE"
+else
+    echo "[毛选Skill] 警告：未找到武装思想入口Skill文件"
+fi
