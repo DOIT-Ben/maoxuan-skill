@@ -182,6 +182,12 @@ claude --plugin-dir .
 /united-front          统一战线
 /mass-line             群众路线
 /criticism             批评与自我批评
+/hard-struggle         艰苦奋斗
+/self-reliance         独立自主
+/risk-management        风险预判
+/cultural-united-front 文艺统战
+/ideological-work      思想政治工作
+/learning              学习改造
 /workflows             工作流组合
 ```
 
@@ -194,8 +200,8 @@ maoxuan-skill/
 ├── .cursor-plugin/plugin.json
 ├── .claude-plugin/plugin.json
 ├── hooks/                       # Session注入系统
-├── commands/                     # 手动命令入口
-├── skills/                       # 18个Skill
+├── commands/                     # 17个手动命令入口
+├── skills/                       # 18个Skill（17个手动+1个自动）
 └── docs/                         # 扩展文档
 ```
 
