@@ -1,8 +1,7 @@
 ---
 name: arming-thought
 description: |
- 触发：在每次新的顶层对话开始时自动调用，用于建立核心原理，并在明确适用时为后续任务选择下游skill。
- English: Trigger at the start of each new top-level conversation to establish the core principles and select downstream skills only when clearly useful.
+  触发：在每次新的顶层对话开始时自动调用，用于建立核心原理，并在明确适用时为后续任务选择下游skill。
 ---
 
 # 武装思想——毛泽东思想方法论体系
